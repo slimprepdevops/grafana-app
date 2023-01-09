@@ -13,7 +13,7 @@ services:
     labels:
       - traefik.enable=true
       - traefik.http.routers.grafana.entrypoints=web
-      - "traefik.http.routers.grafana.rule=Host(`grafana.isttestdev.ng`)"
+      - "traefik.http.routers.grafana.rule=Host(`grafana.sketapp.com`)"
       - "traefik.http.routers.grafana.service=grafana"
       - "traefik.http.services.grafana.loadbalancer.server.port=3000"
       - "traefik.docker.network=proxy"
